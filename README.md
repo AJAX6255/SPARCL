@@ -9,19 +9,19 @@ It then explains how to **retrieve** the complete *Spectrum Records* (containing
 
 ```mermaid
 flowchart TD
-    A0["SPARCL Client (`SparclClient`)
+    A0["SPARCL Client (SparclClient)
 "]
     A1["Spectrum Record
 "]
-    A2["Data Discovery (`client.find`)
+    A2["Data Discovery (client.find)
 "]
-    A3["Data Retrieval (`client.retrieve`, `client.retrieve_by_specid`)
+    A3["Data Retrieval (client.retrieve, client.retrieve_by_specid)
 "]
-    A4["Identifier (`sparcl_id`, `specid`)
+    A4["Identifier (sparcl_id, specid)
 "]
-    A5["Field Selection (`include` parameter, `get_all/default_fields`)
+    A5["Field Selection (include parameter, get_all/default_fields)
 "]
-    A6["Result Handling (`Found`, `Retrieved` objects)
+    A6["Result Handling (Found, Retrieved objects)
 "]
     A0 -- "Executes find" --> A2
     A0 -- "Executes retrieve" --> A3
