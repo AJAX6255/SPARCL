@@ -5,7 +5,7 @@ It shows beginners how to **discover** astronomical spectra using search criteri
 It then explains how to **retrieve** the complete *Spectrum Records* (containing data like flux and wavelength) using unique **Identifiers** (`sparcl_id` or `specid`) with methods like `client.retrieve()`.
 
 
-**Source Repository:** [[None](https://github.com/astro-datalab/notebooks-latest/blob/master/04_HowTos/SPARCL/How_to_use_SPARCL.ipynb)](None)
+**Source Repository:** [Jupyter Notebook](https://github.com/astro-datalab/notebooks-latest/blob/master/04_HowTos/SPARCL/How_to_use_SPARCL.ipynb)
 
 ```mermaid
 flowchart TD
